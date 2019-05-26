@@ -1,0 +1,63 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 960px;
+  color: #ebebeb
+  font-family: "sans-serif, arial, helvectica neue, helvetica";
+  font-size: 20px;
+  background: #777777;
+
+}
+
+header {
+  background-color: #ebebeb;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #777777;
+  text-align: center
+}
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+aside {
+  float: left;
+}
+
+main {
+  float: left;
+}
+
+
+aside {
+  background-color: #ebebeb;
+  width: 495px;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #777777;
+  text-align: center;
+}
+
+main {
+  background-color: #ebebeb;
+  width: 465px;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #777777;
+  text-align: center;
+}
+
+footer {
+  background-color: #ebebeb;
+  width: 960px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #777777;
+  text-align: center;
+}
